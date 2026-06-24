@@ -6,7 +6,7 @@ This repository contains the solution for the Claude Desktop installation error 
 
 ---
 
-## ðŸ“‹ Error Description
+## Error Description
 
 **Error Code:** \HRESULT 0x80073CFF\
 
@@ -22,7 +22,7 @@ Installation failed: AddPackage failed: AddPackage failed with HRESULT 0x80073CF
 
 ---
 
-## ðŸ” Root Cause Analysis
+## Root Cause Analysis
 
 The error occurs due to a combination of factors:
 
@@ -36,7 +36,7 @@ The error occurs due to a combination of factors:
 
 ---
 
-## âœ… Solution
+## Solution
 
 ### Quick Fix (Copy & Paste)
 
@@ -65,7 +65,7 @@ Write-Host "Installation complete! Check Start Menu for Claude." -ForegroundColo
 
 ---
 
-## ðŸ“– Detailed Step-by-Step Solution
+## Detailed Step-by-Step Solution
 
 ### Step 1: Enable Developer Mode via Group Policy
 
@@ -113,7 +113,7 @@ Add-AppxPackage -Path "C:\Users\Isra\Downloads\Claude.msix"
 
 ---
 
-## ðŸ”§ Alternative: Automated Installation Script
+## Alternative: Automated Installation Script
 
 Use the provided script in the \scripts\ folder:
 
@@ -123,7 +123,7 @@ Use the provided script in the \scripts\ folder:
 
 ---
 
-## ðŸ“Š Technical Details
+## Technical Details
 
 ### Registry Keys Modified
 
@@ -185,15 +185,10 @@ If you're on Build 26200 or later Insider builds, consider:
 
 ---
 
-## ðŸ“ Repository Contents
-
-- \logs/\ - Installation log files
-- \scripts/\ - Automated installation scripts
-- \README.md\ - This documentation
 
 ---
 
-## ðŸ“ Notes
+## Notes
 
 - **Administrator privileges required**: All PowerShell commands must be run as Administrator
 - **Restart recommended**: After applying fixes, restart your computer for best results
@@ -201,7 +196,7 @@ If you're on Build 26200 or later Insider builds, consider:
 
 ---
 
-## ðŸ”— References
+## References
 
 - [Microsoft Docs: Enable your device for development](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development)
 - [Microsoft Docs: Sideloading](https://docs.microsoft.com/en-us/windows/msix/sideload-apps)
@@ -209,7 +204,7 @@ If you're on Build 26200 or later Insider builds, consider:
 
 ---
 
-## ðŸ¤ Contributing
+## Contributing
 
 If you encounter this error on different Windows versions, please:
 1. Open an issue with your Windows version
