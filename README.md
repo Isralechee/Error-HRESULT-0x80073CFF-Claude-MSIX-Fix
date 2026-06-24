@@ -1,4 +1,3 @@
-```markdown
 # Claude Desktop MSIX Installation Error Fix
 
 ## Error: HRESULT 0x80073CFF
@@ -14,7 +13,7 @@ This repository contains the solution for the Claude Desktop installation error 
 **Error Message:**
 ```text
 Installation failed: AddPackage failed: AddPackage failed with HRESULT 0x80073CFF
-```
+
 
 **Affected Systems:**
 - Windows 11 Professional
