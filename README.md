@@ -11,7 +11,6 @@ This repository contains the solution for the Claude Desktop installation error 
 **Error Code:** `HRESULT 0x80073CFF`
 
 **Error Message:**
-```text
 Installation failed: AddPackage failed: AddPackage failed with HRESULT 0x80073CFF
 
 
@@ -31,7 +30,6 @@ The error occurs due to a combination of factors:
 3. **Windows Store Cache**: Existing cache interfered with the new installation.
 4. **Windows Insider Build Issues**: Build 26200 has known compatibility issues with MSIX package installations.
 
----
 
 ## ✅ Solution
 
