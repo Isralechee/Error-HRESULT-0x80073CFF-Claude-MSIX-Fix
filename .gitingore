@@ -1,0 +1,15 @@
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# User-specific files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
