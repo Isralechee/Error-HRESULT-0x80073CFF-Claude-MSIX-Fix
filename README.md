@@ -1,7 +1,3 @@
-Aquí tienes el archivo `README.md` completamente corregido, con el formato Markdown arreglado (los bloques de código, las comillas invertidas y los saltos de línea de PowerShell que estaban rotos) y optimizado para que cualquiera pueda usarlo (cambié tu usuario `Isra` por la variable de entorno `$env:USERPROFILE` para que sea universal).
-
-Solo haz clic en el botón de **"Copy"** en la esquina superior derecha del bloque de código:
-
 ```markdown
 # Claude Desktop MSIX Installation Error Fix
 
